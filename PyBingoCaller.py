@@ -1,3 +1,6 @@
+#PyBingoCaller by Jarrett McAlicher
+ver='1.0'
+
 import random
 import readchar
 
@@ -58,7 +61,7 @@ class BingoBalls():
 if __name__=='__main__':
 
     game=BingoBalls()
-    print ('\nPyBingoCaller by Jarrett McAlicher\n')
+    print (f'\nPyBingoCaller v{ver} by Jarrett McAlicher\n')
     while True:
         print ("\nMenu: 'C' call new number, 'L' List called numbers,\n      'A' Available numbers, 'N' Number of balls called,'S' Stop Game... ",end='')
         
